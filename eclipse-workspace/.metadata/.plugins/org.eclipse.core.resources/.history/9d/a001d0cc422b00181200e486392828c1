@@ -1,0 +1,26 @@
+package Chapter10;
+
+class Quadrangle {
+	public static void draw(Quadrangle q) {
+		// SomeSentence
+	}
+}
+
+class Square extends Quadrangle {
+	// SomeSentence
+}
+
+class Anything {
+	// SomeSentence
+}
+
+public class Parallelogram extends Quadrangle {
+	
+	public static void main(String[] args) {
+		Quadrangle q = new Quadrangle();
+		// 判断父类对象是否为Parallelogram子类的一个实例
+		if(q instanceof Parallelogram) {
+			Parallelogram p = (Parallelogram)q;
+		}
+	}
+}

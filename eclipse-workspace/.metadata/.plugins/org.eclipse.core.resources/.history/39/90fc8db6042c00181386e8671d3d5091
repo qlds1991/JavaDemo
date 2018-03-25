@@ -1,0 +1,18 @@
+package Chapter10;
+
+/**
+ * 四边形类
+ * @author dongfangjinyuql
+ */
+public class Quadrangle {
+	
+	// 实例化保存四边形对象的数组
+	private Quadrangle[] qTest = new Quadrangle[6];
+	private int nextIndex = 0;
+	
+	public void draw(Quadrangle q) {
+		if(nextIndex<qTest.length) {
+			
+		}
+	}
+}

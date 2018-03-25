@@ -1,0 +1,11 @@
+package Chapter10;
+
+/**
+ * 平行四边形类
+ * @author dongfangjinyuql
+ */
+public class Parallelogram extends Quadrangle {
+	public static void main(String[] args) {
+		draw(new Parallelogram());
+	}
+}

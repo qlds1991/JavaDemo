@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="删除资源“demo-tech-sdk-web”" deleteContents="false" description="删除资源“demo-tech-sdk-web”" element1="/demo-tech-sdk-web" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1521168308730"/>
+</session>

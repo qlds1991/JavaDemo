@@ -1,0 +1,28 @@
+package Chapter10;
+
+class Test {
+	public Test() {
+		// SomeSentence
+	}
+	
+	protected void doSomeThing() {
+		// SomeSentence
+	}
+	
+	protected Test doIt() {
+		return new Test();
+	}
+}
+
+class Test2 extends Test {
+	public Test2() {
+		super();
+		super.doSomeThing();
+	}
+	
+	public void doSomeThingNew() {
+		// SomeSentence
+	}
+	
+	
+}

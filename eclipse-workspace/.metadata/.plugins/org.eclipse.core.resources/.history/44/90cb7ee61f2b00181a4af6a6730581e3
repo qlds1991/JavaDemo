@@ -1,0 +1,13 @@
+package Chapter10;
+
+class Parent {
+	
+}
+
+class SubParent extends Parent {
+	
+}
+
+public class Subroutine extends SubParent {
+
+}

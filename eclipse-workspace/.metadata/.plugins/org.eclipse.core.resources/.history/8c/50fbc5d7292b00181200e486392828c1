@@ -1,0 +1,12 @@
+package Chapter10;
+
+class Quadrangle() {
+	
+}
+
+public class Parallelogram {
+
+	public static void draw(Quadrangle q) {
+		// SomeSentence
+	}
+}

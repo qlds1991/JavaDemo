@@ -1,0 +1,9 @@
+package Chapter10;
+
+public class ObjectInstance {
+	@Override
+	public String toString() {
+		
+		return "在" + getClass().getName() + "类中重写toString方法"；
+	}
+}

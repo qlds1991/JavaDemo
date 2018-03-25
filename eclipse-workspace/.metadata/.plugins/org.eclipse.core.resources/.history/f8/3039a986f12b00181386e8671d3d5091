@@ -1,0 +1,25 @@
+package Chapter10;
+
+public class OverLoadTest {
+	public static int add(int a,int b) {
+		return a+b;
+	}
+	
+	// 定义与第一个方法名称相同，参数类型不同的方法
+	public static double add(double a,double b) {
+		return a+b;
+	}
+	
+	// 定义与第一个方法名相同，参数个数不同的方法
+	public static int add(int a) {
+		return a;
+	}
+	
+	public static int add(int a,double b) {
+		return 1;
+	}
+	
+	public static int add(double a,int b) {
+		return 1;
+	}
+}

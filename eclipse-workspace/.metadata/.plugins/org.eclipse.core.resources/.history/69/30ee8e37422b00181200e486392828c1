@@ -1,0 +1,20 @@
+package Chapter10;
+
+class Quadrangle {
+	public static void draw(Quadrangle q) {
+		// SomeSentence
+	}
+}
+
+class Square extends Quadrangle {
+	
+}
+
+public class Parallelogram extends Quadrangle {
+	
+	public static void main(String[] args) {
+		
+		Parallelogram p = new Parallelogram();
+		draw(p);
+	}
+}

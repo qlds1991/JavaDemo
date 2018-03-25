@@ -1,0 +1,8 @@
+package Chapter10;
+
+public class OverWhiteEquals {
+	public static void main(String[] args) {
+		
+	}
+	
+}
